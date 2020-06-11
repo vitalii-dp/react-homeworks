@@ -1,0 +1,21 @@
+.form-container {
+  padding-top: 20px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+header {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+label {
+  font-weight: bold;
+}
