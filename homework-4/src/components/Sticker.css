@@ -1,0 +1,26 @@
+.sticker {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background-color: beige;
+  position: absolute;
+}
+
+textarea{
+  width: 180px;
+  height: 160px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  resize: none;
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+}
+
+i.fas.fa-arrows-alt{
+  cursor: move;
+}
+
+i.fas.fa-trash-alt{
+  cursor: pointer;
+}
