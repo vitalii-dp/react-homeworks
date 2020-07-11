@@ -12,7 +12,7 @@ function ContactBook({isFormVisible, toggleForm, addContact, deleteContact}) {
         <button type="button" className="btn btn-primary" onClick={toggleForm} disabled={isFormVisible}>Add new contact</button>
       </div>
       <div className="col">
-        {isFormVisible ? <ContactsForm isFormVisible={isFormVisible} toggleForm={toggleForm} addContact={addContact}/> : null }
+        {isFormVisible ? <ContactsForm toggleForm={toggleForm} addContact={addContact}/> : null }
       </div>
     </div>
   )
